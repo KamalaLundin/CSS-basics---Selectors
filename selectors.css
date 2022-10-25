@@ -56,15 +56,26 @@ div > p {
 }
 
 /* 12. Ge alla em i den fjärde div-en med class="fourth" en 'text-docration: underline;*/
-
+.fourth > p > em {
+    text-decoration: underline;
+}
 
 /* 13. Gör så att <h1> elementet får färgen blå när musen är över elementet (:hover) */
-
+h1:hover {
+    color: #0001ff;
+}
 
 /* 14. Gör så att alla besökta <a> element får färgen grå (:visited) */
-
+a:visited {
+    color: gray;
+}
 
 /* 15. Alla inmatningsfält (input) av typ 'text' ska ha grå bakgrund */
-
+input[type="text"] {
+    background-color: gray;
+}
 
 /* 16. Alla checkboxrutor som är 'checked' ska får en vänstermarginal på 50px (margin-left: 50px) */
+input:checked {
+    margin-left: 50px;
+}
